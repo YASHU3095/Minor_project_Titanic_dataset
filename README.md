@@ -37,7 +37,6 @@ An end-to-end Machine Learning data preprocessing pipeline designed for the Tita
 
 ```text
 ├── main.py             # Primary end-to-end data preparation pipeline
-├── main_1.py           # Alternative modular implementation
 ├── requirements.txt    # Project dependencies
 ├── .gitignore          # Ignored cache & temporary files
 ├── titanic.csv         # Raw Titanic dataset
@@ -70,3 +69,4 @@ pip install -r requirements.txt
 python main.py
 ```
 After successful execution, the transformed datasets (`X_train.csv`, `X_test.csv`, `y_train.csv`, `y_test.csv`) will be generated.
+
